@@ -1,6 +1,8 @@
 function App() {
+  const greeting = "Hi!"
+  const dom = <h1>{greeting}</h1>;
   return (
-    <h1>Hello,World!</h1>
+    dom
   );
 }
 
